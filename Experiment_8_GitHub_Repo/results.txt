@@ -1,0 +1,25 @@
+Experiment 8 simulation summary
+RRC roll-off beta = 0.35
+Span = 8 symbols
+Samples/symbol = 8
+Each RRC filter group delay = span*sps/2 = 32 samples
+Total cascade delay = span*sps = 64 samples
+Detection uses samples only after total delay compensation.
+
+BER vs SNR:
+   0 dB : 0.00166667
+   2 dB : 0.000333333
+   4 dB : 0
+   6 dB : 0
+   8 dB : 0
+  10 dB : 0
+  12 dB : 0
+
+BER vs sampling offset at 6 dB:
+  -3 samples : 0.0646667
+  -2 samples : 0.00266667
+  -1 samples : 0
+  +0 samples : 0
+  +1 samples : 0
+  +2 samples : 0.00333333
+  +3 samples : 0.0743333
